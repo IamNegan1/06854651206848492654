@@ -25,39 +25,41 @@
 
 
 <details>
-<h2 id="features">Features 🚀</h2>
-<ul>
-page_with_curl: <strong>Fake Error</strong> - Create fake error messages.</li>
-camera: <strong>Capture Screenshot</strong> - Capture screenshot from all monitors.</li>
-signal_strength: <strong>WiFi Stealer</strong> - Extract wifi profiles & passwords.</li>
-lock: <strong>Create Mutex</strong> (Anti Spam) - Prevent spamming.</li>
-calling: <strong>Discord Injection</strong> - Send token, password, and email on login or password change.</li>
-key: <strong>Password Stealer</strong> - Steals Browser passwords.</li>
-credit_card: <strong>Credit Card Stealer</strong> - Steals Browser Cards.</li>
-cookie: <strong>Cookie Stealer</strong> - Steals Browser cookies.</li>
-moneybag: <strong>Crypto & Wallet Stealer</strong> - Steals cryptocurrency and wallet information.</li>
-cookie: <strong>AutoFill Stealer</strong> - Steals Browser autofill data.</li>
-iphone: <strong>Telegram Session Stealer</strong> - Steals Telegram session files.</li>
-video_game: <strong>Uplay Session Stealer</strong> - Steals Uplay session files.</li>
-video_game: <strong>Epic Session Stealer</strong> - Steals Epic session files.</li>
-video_game: <strong>Growtopia Session Stealer</strong> - Steals Growtopia `save.dat`.</li>
-bookmark: <strong>Bookmark Stealer</strong> - Steals Browser bookmarks.</li>
-hourglass_flowing_sand: <strong>History Stealer</strong> - Steals Browser history.</li>
-floppy_disk: <strong>Downloads Stealer</strong> - Steals downloaded files.</li>
-camera: <strong>Instagram Session Stealer & Validator</strong> - Steals and validate Instagram sessions.</li>
-bird: <strong>Twitter Session Stealer & Validator</strong> - Steals and validate Twitter sessions.</li>
-notes: <strong>Tiktok Session Stealer & Validator</strong> - Steals and validate Tiktok sessions.</li>
-tv: <strong>Twitch Session Stealer & Validator</strong> - Steals and validate Twitch sessions.</li>
-musical_note: <strong>Spotify Session Stealer & Validator</strong> - Steals and validate Spotify sessions.</li>
-video_game: <strong>Riot Games Session Stealer & Validator</strong> - Steals and validate Riot Games sessions (valorant and lol).</li>
-speech_balloon: <strong>Reddit Session Stealer & Validator</strong> - Steals and validate Reddit sessions.</li>
-video_game: <strong>Roblox Session Stealer & Validator</strong> - Steals and validate Roblox sessions.</li>
-video_game: <strong>Steam Session Stealer & Validator</strong> - Steals and validate Steam sessions.</li>
-video_game: <strong>Growtopia save.dat Stealer</strong> - Steals Growtopia save.dat.</li>
-telephone_receiver: <strong>Discord Token Stealer</strong> - Steals Discord tokens.</li>
-computer: <strong>System Info Stealer</strong> - Steals system information.</li>
-clipboard: <strong>Last Clipboard Text</strong> - Steals the last clipboard text.</li>
-computer: <strong>Process Stealer</strong> - Steals running processes.</li>
+  <summary>Features 🚀</summary> 
+  
+```
+📃 Fake Error - Create fake error messages.
+📷 Capture Screenshot - Capture screenshot from all monitors.
+📶 WiFi Stealer - Extract wifi profiles & passwords.
+🔒 Create Mutex (Anti Spam) - Prevent spamming.
+📲 Discord Injection - Send token, password, and email on login or password change.
+🔑 Password Stealer - Steals Browser passwords.
+💳 Credit Card Stealer - Steals Browser Cards.
+🍪 Cookie Stealer - Steals Browser cookies.
+💰 Crypto & Wallet Stealer - Steals cryptocurrency and wallet information.
+🍪 AutoFill Stealer - Steals Browser autofill data.
+📱 Telegram Session Stealer - Steals Telegram session files.
+🎮 Uplay Session Stealer - Steals Uplay session files.
+🎮 Epic Session Stealer - Steals Epic session files.
+🎮 Growtopia Session Stealer - Steals Growtopia `save.dat`.
+🔖 Bookmark Stealer - Steals Browser bookmarks.
+⏳ History Stealer - Steals Browser history.
+💾 Downloads Stealer - Steals downloaded files.
+📷 Instagram Session Stealer & Validator - Steals and validate Instagram sessions.
+🐦 Twitter Session Stealer & Validator - Steals and validate Twitter sessions.
+🎶 Tiktok Session Stealer & Validator - Steals and validate Tiktok sessions.
+📺 Twitch Session Stealer & Validator - Steals and validate Twitch sessions.
+🎵 Spotify Session Stealer & Validator - Steals and validate Spotify sessions.
+🎮 Riot Games Session Stealer & Validator - Steals and validate Riot Games sessions (valorant and lol).
+💬 Reddit Session Stealer & Validator - Steals and validate Reddit sessions.
+🎮 Roblox Session Stealer & Validator - Steals and validate Roblox sessions.
+🎮 Steam Session Stealer & Validator - Steals and validate Steam sessions.
+🎮 Growtopia save.dat Stealer - Steals Growtopia save.dat.
+📞 Discord Token Stealer - Steals Discord tokens.
+💻 System Info Stealer - Steals system information.
+📋 Last Clipboard Text - Steals the last clipboard text.
+💻 Process Stealer - Steals running processes.
+```
 
 </details>
 
