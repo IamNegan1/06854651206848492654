@@ -1,4 +1,4 @@
-<h1 id="exela-stealer">Exela Stealer</h1>
+<h1 id="exela-stealer">Exela Stealer V2</h1> 
 <p>Exela Stealer, a powerful and feature-rich tool, offers the following functionalities:<br>
    <a href="https://t.me/Exela_Stealer">Telegram Adress</a> - Join our Telegram channel for the latest developments
 </p>
