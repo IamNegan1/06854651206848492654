@@ -15,7 +15,14 @@
 
 ## <a id="Changelog"></a>📝・Changelog
 ```
-- ...
+> 28/10/2024 -> 06/11/2024 !
+- telegram stealer
+- more informations stealed from roblox users
+- more informations stealed from discord users
+- aiohttp module removed
+- Error Handler
+- removed steam session (url api doesent work :|
+
 ```
 
 <details>
