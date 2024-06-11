@@ -31,7 +31,6 @@
   
 ```
 > Computer Stealer
-
 - Fake Error
 - System Info Stealer
 - Ntework Informations
@@ -55,7 +54,6 @@
 - Roblox Session Stealer & Validator
 
 > Social Medias Stealer
-
 - Telegram Session Stealer
 - Instagram Session Stealer & Validator
 - Twitter Session Stealer & Validator
