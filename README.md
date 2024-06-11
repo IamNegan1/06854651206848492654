@@ -25,8 +25,7 @@
 
 ```
 
-<details>
-  <summary><h1>Features 🚀</h1></summary> 
+<h1>Features 🚀</h1>
   
 ```
 > Computer Stealer
@@ -67,18 +66,13 @@
 - Clipper ? (Soon)
 ```
 
-</details>
 
 
-<details>
-  <summary><h2 id="notes">Credit's 📢</h2></summary> 
+<h1 id="notes">Credit's 📢</h1>
+   <p>- If you have any issues or need support with this project, you can contact me via <a href="https://t.me/Exela_Stealer">Telegram</a>:speech_balloon:</p>
 
-<p>- If you have any issues or need support with this project, you can contact me via <a href="https://t.me/Exela_Stealer">Telegram</a>:speech_balloon:</p>
-</details>
 
-<details>
-  <summary><h1 id="screenshots">Screenshots 📸</h1></summary> 
-
+<h1 id="screenshots">Screenshots 📸</h1>
 <img src="https://i.hizliresim.com/tlw310u.png" alt="Application Screenshot">
-</details>
+
 
