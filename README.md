@@ -17,10 +17,7 @@
 <h2>Table of Contents</h2>
 <ul>
   <li><a href="#features">Features</a></li>
-  <li><a href="#builder-settings">Builder Settings</a></li>
-  <li><a href="#how-to-build">How to Build</a></li>
   <li><a href="#disclaimer">Disclaimer</a></li>
-  <li><a href="#support-the-project">Support the Project</a></li>
   <li><a href="#screenshots">Screenshots</a></li>
 </ul>
 
@@ -69,11 +66,14 @@
 </details>
 
 
-<h2 id="notes">Credit's 📢</h2>
+<details>
+  <summary><h2 id="notes">Credit's 📢</h2></summary> 
+
 <p>- If you have any issues or need support with this project, you can contact me via <a href="https://t.me/quicaxd">Telegram</a>:speech_balloon:</p>
 
+<details>
+  <summary><h1 id="screenshots">Screenshots 📸</h1></summary> 
 
-<h2 id="screenshots">Screenshots 📸</h2>
 <img src="https://i.hizliresim.com/tlw310u.png" alt="Application Screenshot">
 
 
