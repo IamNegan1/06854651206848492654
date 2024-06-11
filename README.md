@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
-
-<!-- Content -->
 <h1 id="exela-stealer">Exela Stealer</h1>
 <p>Exela Stealer, a powerful and feature-rich tool, offers the following functionalities:<br>
-   <a href="https://t.me/ExelaStealer">Telegram Adress</a> - Join our Telegram channel for the latest developments
+   <a href="https://t.me/Exela_Stealer">Telegram Adress</a> - Join our Telegram channel for the latest developments
 </p>
 
 <h1 id="disclaimer">Disclaimer ⚠️</h1>
@@ -74,7 +66,7 @@
 <details>
   <summary><h2 id="notes">Credit's 📢</h2></summary> 
 
-<p>- If you have any issues or need support with this project, you can contact me via <a href="https://t.me/quicaxd">Telegram</a>:speech_balloon:</p>
+<p>- If you have any issues or need support with this project, you can contact me via <a href="https://t.me/Exela_Stealer">Telegram</a>:speech_balloon:</p>
 </details>
 
 <details>
