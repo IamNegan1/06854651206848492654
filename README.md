@@ -1,5 +1,5 @@
 <h1 id="exela-stealer">Exela Stealer V2</h1> 
-----
+-----
 FR: Exela Stealer v2 et un project que j'ai repris tout seul dans le but d'apprendre de nouvelle chose dans le language de programmation Python !
 Exela Stealer et un project qui a été "Abandonner" par son créateur, c'est donc pour cela aussi que je me permet de prendre son source code qui et public sur github
 et de le modifier et l'améliorer a ma sauce, en ajoutant ou en fesant des "mise a jour" de certaine fonction ou modules.
@@ -8,7 +8,7 @@ qu'il en soient ainsi. les update seront changer ici et je vous avertirai de cha
 le telegram qui ce trouve ci-dessous. Pour ce qu'il en ai du stealer, je compte bien le vendre, mais je vous rassure le prix sera celui du vps avec lequelle je compte cree un bot telegram pour pouvoir build son exe plus
 rapidement et facilement (au alentour des moins de 10€) sinon pour une version plus complete et indetectable je compte mettre le prix pas plus que 100€ et pas moins de 50€ je dit sa car je me suis pas decider sur le 
 prix encore et que je n'es meme pas coder le builder pour le moment bref
-----
+-----
 US: Exela Stealer v2 and a project that I took on on my own with the aim of learning new things in the Python programming language!
 Exela Stealer and a project which was "Abandoned" by its creator, this is also why I allow myself to take its source code which is public on github
 and to modify and improve it to my liking, by adding or making "updates" to certain functions or modules.
@@ -17,7 +17,7 @@ let it be so. updates will change here and I will notify you of each code change
 the telegram found below. For what I have of the stealer, I intend to sell it, but I assure you the price will be that of the vps with which I intend to create a telegram bot to be able to build its exe more
 quickly and easily (around less than 10€) otherwise for a more complete and undetectable version I plan to put the price no more than 100€ and no less than 50€ I say that because I haven't decided on the
 price again and I haven't even coded the builder at the moment
-----
+-----
 Exela Stealer, a powerful and feature-rich tool, offers the following functionalities:
 <a href="https://t.me/Exela_Stealer">Telegram Adress</a> - Join our Telegram channel for the latest developments
 
