@@ -1,4 +1,5 @@
 <h1 id="exela-stealer">Exela Stealer V2</h1> 
+
 ```
 FR: Exela Stealer v2 et un project que j'ai repris tout seul dans le but d'apprendre de nouvelle chose dans le language de programmation Python !
 Exela Stealer et un project qui a été "Abandonner" par son créateur, c'est donc pour cela aussi que je me permet de prendre son source code qui et public sur github
@@ -9,6 +10,7 @@ le telegram qui ce trouve ci-dessous. Pour ce qu'il en ai du stealer, je compte 
 rapidement et facilement (au alentour des moins de 10€) sinon pour une version plus complete et indetectable je compte mettre le prix pas plus que 100€ et pas moins de 50€ je dit sa car je me suis pas decider sur le 
 prix encore et que je n'es meme pas coder le builder pour le moment bref
 ```
+
 ```
 US: Exela Stealer v2 and a project that I took on on my own with the aim of learning new things in the Python programming language!
 Exela Stealer and a project which was "Abandoned" by its creator, this is also why I allow myself to take its source code which is public on github
