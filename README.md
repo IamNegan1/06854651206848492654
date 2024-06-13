@@ -54,26 +54,26 @@ Exela Stealer, a powerful and feature-rich tool, offers the following functional
 - Password Stealer, Credit Card, Cookie, AutoFill, Bookmark, History, Downloads.
 - Wallets Extentions.
 
-> Game Sessions
-- Uplay Session Stealer
-- Epic Session Stealer
-- Growtopia Session Stealer
-- Riot Games Session Stealer & Validator
-- Steam Session Stealer & Validator
-- Roblox Session Stealer & Validator
+> Game Sessions Stealer
+- Uplay Session
+- Epic Session
+- Growtopia
+- Riot Games
+- Steam Session
+- Roblox Session
 
 > Social Medias Stealer
-- Telegram Session Stealer
-- Instagram Session Stealer & Validator
-- Twitter Session Stealer & Validator
-- Tiktok Session Stealer & Validator
-- Twitch Session Stealer & Validator
-- Spotify Session Stealer & Validator
-- Reddit Session Stealer & Validator
-- Discord Token Stealer
+- Telegram Session 
+- Instagram Session 
+- Twitter Session 
+- Tiktok Session 
+- Twitch Session 
+- Spotify Session 
+- Reddit Session 
+- Discord Token 
 
 > Cryptocurrency Stealer
-- Crypto & Wallet Stealer
+- Crypto & Wallet 
 - Clipper ? (Soon)
 ```
 
