@@ -34,8 +34,6 @@ Exela Stealer, a powerful and feature-rich tool, offers the following functional
 > 06/11/2024 -> 06/13/2024 !
 - added +20 browsers
 - added proxy detection (False or True)
-
-
 ```
 
 <h1>Features 🚀</h1>
