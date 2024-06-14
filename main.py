@@ -341,8 +341,6 @@ class Main:
             "K-Meleon": os.path.join(self.RoamingAppData, "K-Meleon", "Profiles"),
             "Mercury": os.path.join(self.RoamingAppData, "mercury", "Profiles"),
 
-            "amigo": os.path.join(self.LocalAppData, "Amigo", "User Data"),
-            "torch": os.path.join(self.LocalAppData, "Torch", "User Data"),
             "Amigo": os.path.join(self.LocalAppData, "Amigo", "User Data"),
             "Torch": os.path.join(self.LocalAppData, "Torch", "User Data"),
             "kometa": os.path.join(self.LocalAppData, "Kometa", "User Data"),
