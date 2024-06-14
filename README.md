@@ -52,7 +52,7 @@ Exela Stealer, a powerful and feature-rich tool, offers the following functional
 > Browser Stealer
 - Mozilla, Brave, Edge, Google, Opera(GX).
 - Password Stealer, Credit Card, Cookie, AutoFill, Bookmark, History, Downloads.
-- Wallets Extentions.
+- +80 Wallets Extentions.
 
 > Game Sessions Stealer
 - Uplay Session
