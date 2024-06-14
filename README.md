@@ -34,23 +34,31 @@ Exela Stealer, a powerful and feature-rich tool, offers the following functional
 > 06/11/2024 -> 06/13/2024 !
 - added +20 browsers
 - added proxy detection (False or True)
+
+> 06/13/2024 -> 06/14/2024 !
+- added +47 browser & +80 Wallet Extention
+
+je suis entrain de travailler sur l'encryption et l'obfuscation du code,
+l'optimisation et la simplification du code aussi pour que le stealer ce
+finissent plus rapidement.
+
+je vais ajouter la session de jeux minecraft et l'option pour que le exe ce supprime
+après l'execution.
 ```
 
 <h1>Features 🚀</h1>
   
 ```
 > Computer Stealer
-- Fake Error
 - System Info Stealer
-- Ntework Informations
+- Network Informations
 - Last Clipboard Text
 - Process Stealer
-- Create Mutex (Anti Spam)
 - Capture Screenshot
 - WiFi Stealer.
 
 > Browser Stealer
-- Mozilla, Brave, Edge, Google, Opera(GX).
+- +47 Browser
 - Password Stealer, Credit Card, Cookie, AutoFill, Bookmark, History, Downloads.
 - +80 Wallets Extentions.
 
@@ -70,7 +78,7 @@ Exela Stealer, a powerful and feature-rich tool, offers the following functional
 - Twitch Session 
 - Spotify Session 
 - Reddit Session 
-- Discord Token 
+- Discord Account 
 
 > Cryptocurrency Stealer
 - Crypto & Wallet 
