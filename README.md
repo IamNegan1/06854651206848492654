@@ -1,14 +1,14 @@
-<h1 id="exela-stealer">Exela Stealer V2</h1> 
+<h1 id="exela-stealer">Exela Stealer v3</h1> 
 
 ```
-FR: Exela Stealer v2 et un project dans le but d'en apprendre d'avantage sur le language de programmation python
+FR: Exela Stealer v3 et un project dans le but d'en apprendre d'avantage sur le language de programmation python
 ```
 
 ```
-EN: Exela Stealer v2 and a project with the aim of learning more about the python programming language 
+EN: Exela Stealer v3 and a project with the aim of learning more about the python programming language 
 ```
 Exela Stealer, a powerful and feature-rich tool, offers the following functionalities:
-<a href="https://t.me/Exela_Stealer">Telegram Adress</a> - Join our Telegram channel for the latest developments
+<a href="https://t.me/exela_stealer_v3">Telegram Adress</a> - Join our Telegram channel for the latest developments
 
 
 <h1 id="disclaimer">Disclaimer ⚠️</h1>
@@ -31,54 +31,38 @@ Exela Stealer, a powerful and feature-rich tool, offers the following functional
 - Error Handler
 - removed steam session (url api doesent work :|
 
-> 06/11/2024 -> 06/13/2024 !
+> 06/11/2024 -> 06/13/2024 ! (v2 - free)
 - added +20 browsers
 - added proxy detection (False or True)
 
-> 06/13/2024 -> 06/14/2024 !
+> 06/13/2024 -> 06/14/2024 ! (v2 - free)
 - added +47 browser & +80 Wallet Extention
 
-je suis entrain de travailler sur l'encryption et l'obfuscation du code,
-l'optimisation et la simplification du code aussi pour que le stealer ce
-finissent plus rapidement.
+> 06/11/2024 -> 06/24/2024 ! (v3 - premium)
+- removed some browser and wallet extention (bc outdated)
+- added [ guilded | patreon | facebook buisness ] sessions
+- changed telegram channel and stealer version
+- removed some text printed on cmd
 
-je vais ajouter la session de jeux minecraft et l'option pour que le exe ce supprime
-après l'execution.
+- working on telegram bot builder & stealer panel
+- trying to add more social media sessions and more features like [startup, mutex, better anti (vm, av)] ... 
 ```
 
 <h1>Features 🚀</h1>
   
 ```
 > Computer Stealer
-- System Info Stealer
-- Network Informations
-- Last Clipboard Text
-- Process Stealer
-- Capture Screenshot
-- WiFi Stealer.
+- System, Network, Clipboard, Process, Screenshot, WiFi
 
 > Browser Stealer
-- +47 Browser
-- Password Stealer, Credit Card, Cookie, AutoFill, Bookmark, History, Downloads.
+- +47 Browser | Password, Credit Card, Cookie, AutoFill, Bookmark, History, Downloads.
 - +80 Wallets Extentions.
 
 > Game Sessions Stealer
-- Uplay Session
-- Epic Session
-- Growtopia
-- Riot Games
-- Steam Session
-- Roblox Session
+- Uplay, Epic Game, Growtopia, Riot Games, Steam, Roblox
 
 > Social Medias Stealer
-- Telegram Session 
-- Instagram Session 
-- Twitter Session 
-- Tiktok Session 
-- Twitch Session 
-- Spotify Session 
-- Reddit Session 
-- Discord Account 
+- Telegram, Instagram, Twitter, Tiktok, Twitch, Spotify, Reddit, Discord
 
 > Cryptocurrency Stealer
 - Crypto & Wallet 
