@@ -23,13 +23,13 @@ Exela Stealer, a powerful and feature-rich tool, offers the following functional
 
 ## <a id="Changelog"></a>📝・Changelog
 ```
-> 28/10/2024 -> 06/11/2024 !
+> 28/10/2024 -> 06/11/2024 ! (v2 - free)
 - telegram stealer
 - more informations stealed from roblox users
 - more informations stealed from discord users
 - aiohttp module removed
 - Error Handler
-- removed steam session (url api doesent work :|
+- removed steam session (url api doesent work :( 
 
 > 06/11/2024 -> 06/13/2024 ! (v2 - free)
 - added +20 browsers
@@ -69,10 +69,8 @@ Exela Stealer, a powerful and feature-rich tool, offers the following functional
 - Clipper ? (Soon)
 ```
 
-
-
 <h1 id="notes">Credit's 📢</h1>
-   <p>- If you have any issues or need support with this project, you can contact me via <a href="https://t.me/Exela_Stealer">Telegram</a>:speech_balloon:</p>
+   <p>- If you have any issues or need support with this project, you can contact me via <a href="https://t.me/exela_stealer_v3">Telegram</a>:speech_balloon:</p>
 
 
 <h1 id="screenshots">Screenshots 📸</h1>
