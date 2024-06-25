@@ -46,12 +46,14 @@ Exela Stealer, a powerful and feature-rich tool, offers the following functional
 <h1>Features 🚀</h1>
   
 ```
+
+Exela Stealer v2 Free Version !
 > Computer Stealer
 - System, Network, Clipboard, Process, Screenshot, WiFi
 
 > Browser Stealer
-- +47 Browser | Password, Credit Card, Cookie, AutoFill, Bookmark, History, Downloads.
-- +80 Wallets Extentions.
+- +25 Browser | Password, Credit Card, Cookie, AutoFill, Bookmark, History, Downloads.
+- +40 Wallets Extentions.
 
 > Game Sessions Stealer
 - Uplay, Epic Game, Growtopia, Riot Games, Steam, Roblox
@@ -60,8 +62,39 @@ Exela Stealer, a powerful and feature-rich tool, offers the following functional
 - Telegram, Instagram, Twitter, Tiktok, Twitch, Spotify, Reddit, Discord
 
 > Cryptocurrency Stealer
-- Crypto & Wallet 
-- Clipper ? (Soon)
+- Crypto & Wallet
+
+Exela Stealer v3 Premium Version !
+> Computer Stealer
+- System, Network, Clipboard, Process, Screenshot, WiFi
+
+> Browser Stealer
+- +40 Browser | Password, Credit Card, Cookie, AutoFill, Bookmark, History, Downloads.
+- +80 Wallets Extentions.
+
+> Game Sessions Stealer
+- Uplay, Epic Game, Growtopia, Riot Games, Steam
+
+> Social Medias Stealer
+- Telegram, Instagram, Twitter, Tiktok, Twitch, Spotify, Reddit, Discord
+- Roblox, Facebook, Patreon, Guilded
+
+> Cryptocurrency Stealer
+- Crypto & Wallet
+
+> Soon ...
+- Better Anti-vm
+- Fake Error
+- Startup
+- Wallet Clipper
+- Send Sessions Embeds
+- Telegram Bot Builder
+- Better Obfuscation
+- Stealer Panel
+- Files Stealer
+- File Icon Changer
+- File Pumper
+- File Name
 ```
 
 <h1 id="screenshots">Screenshots 📸</h1>
