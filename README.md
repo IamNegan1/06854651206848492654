@@ -37,6 +37,10 @@ Exela Stealer, a powerful and feature-rich tool, offers the following functional
 - changed telegram channel and stealer version
 - removed some text printed on cmd
 
+> 06/24/2024 -> 06/25/2024 ! (v3 - premium)
+- added steam session and guilded session
+- find a new way to send embeds on telegram
+
 ```
 
 <h1>Features 🚀</h1>
