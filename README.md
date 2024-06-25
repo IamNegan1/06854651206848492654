@@ -78,5 +78,6 @@ Exela Stealer, a powerful and feature-rich tool, offers the following functional
 <h1 id="screenshots">Screenshots 📸</h1>
 <img src="https://github.com/IamNegan1/Exela-Stealer-v3/blob/main/img/ontop.png?raw=true" alt="Application Screenshot">
 <img src="https://github.com/IamNegan1/Exela-Stealer-v3/blob/main/img/middle.png?raw=true" alt="Application Screenshot">
+<img src="https://github.com/IamNegan1/Exela-Stealer-v3/blob/main/img/bottom.png?raw=true" alt="Application Screenshot">
 
 
