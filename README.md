@@ -1,14 +1,10 @@
 <h1 id="exela-stealer">Exela Stealer v3</h1> 
-
-```
-FR: Exela Stealer v3 et un project dans le but d'en apprendre d'avantage sur le language de programmation python
-```
-
-```
-EN: Exela Stealer v3 and a project with the aim of learning more about the python programming language 
-```
 Exela Stealer, a powerful and feature-rich tool, offers the following functionalities:
 <a href="https://t.me/exela_stealer_v3">Telegram Adress</a> - Join our Telegram channel for the latest developments
+
+```
+NOTE: on travail sur le builder depuis un bot telegram et on essaie de faire un panel pour mieux trier les logs
+```
 
 
 <h1 id="disclaimer">Disclaimer ⚠️</h1>
@@ -44,8 +40,6 @@ Exela Stealer, a powerful and feature-rich tool, offers the following functional
 - changed telegram channel and stealer version
 - removed some text printed on cmd
 
-- working on telegram bot builder & stealer panel
-- trying to add more social media sessions and more features like [startup, mutex, better anti (vm, av)] ... 
 ```
 
 <h1>Features 🚀</h1>
