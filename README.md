@@ -2,9 +2,6 @@
 Exela Stealer, a powerful and feature-rich tool, offers the following functionalities:
 <a href="https://t.me/exela_stealer_v3">Telegram Adress</a> - Join our Telegram channel for the latest developments
 
-```
-NOTE: on travail sur le builder depuis un bot telegram et on essaie de faire un panel pour mieux trier les logs
-```
 
 
 <h1 id="disclaimer">Disclaimer ⚠️</h1>
