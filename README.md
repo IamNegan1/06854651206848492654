@@ -69,13 +69,14 @@ Exela Stealer, a powerful and feature-rich tool, offers the following functional
 - Clipper ? (Soon)
 ```
 
-<h1 id="notes">Credit's 📢</h1>
-   <p>- If you have any issues or need support with this project, you can contact me via <a href="https://t.me/exela_stealer_v3">Telegram</a>:speech_balloon:</p>
-
-
 <h1 id="screenshots">Screenshots 📸</h1>
 <img src="https://github.com/IamNegan1/Exela-Stealer-v3/blob/main/img/ontop.png?raw=true" alt="Application Screenshot">
 <img src="https://github.com/IamNegan1/Exela-Stealer-v3/blob/main/img/middle.png?raw=true" alt="Application Screenshot">
 <img src="https://github.com/IamNegan1/Exela-Stealer-v3/blob/main/img/bottom.png?raw=true" alt="Application Screenshot">
+
+
+<h1 id="notes">Credit's 📢</h1>
+   <p>- If you have any issues or need support with this project, you can contact me via <a href="https://t.me/exela_stealer_v3">Telegram</a>:speech_balloon:</p>
+
 
 
